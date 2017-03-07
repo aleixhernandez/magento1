@@ -1,0 +1,57 @@
+# .htaccess, app/etc/local.xml and robots.txt must be created in production manually
+
+# gitignore magento common
+/.htaccess
+/app/etc/local.xml
+/downloader/.cache/
+/downloader/cache.cfg
+/downloader/connect.cfg
+/includes/
+/media/*/
+/var/*/
+/TODO.txt
+/maintenance.flag
+/var/resource_config.json
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+*.iml
+*.sql
+*.tar.gz
+*.zip
+*.tar
+*.gz
+
+# OS or Editor folders
+.DS_Store
+.DS_Store/
+Thumbs.db/
+.cache/
+.project/
+.settings/
+.tmproj/
+*.esproj/
+nbproject/
+
+# Folders to ignore
+.hg/
+.svn/
+.CVS/
+intermediate/
+publish/
+.idea/
+
+# SEO
+/robots.txt
+/sitemap/
+/sitemap.xml
+
